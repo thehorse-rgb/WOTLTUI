@@ -131,7 +131,8 @@ mein_menu
         exit 0
         ;;
     *)
-        echo "Ungültig"
+        echo "\e[0;31m[FEHLER]\e[0m Ungültige Auswahl bitte wählen sie eine der vorgegebenen Zahlen"
+        mein_menu
         ;;
 esac
 
